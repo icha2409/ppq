@@ -1,8 +1,8 @@
 #!/bin/bash
 
 POOL=eu1.ethermine.org:14444
-WALLET=0xcf089150cedab8b714ea54333fbff85f7a97515e
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Lyst
+WALLET=0x411e198601fd8d9293697c7584435ecea20209f4
+WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Crot
 
 cd "$(dirname "$0")"
 
